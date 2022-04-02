@@ -60,6 +60,7 @@ const Header = () => {
         </div>
       </div>
     </div>
+    <div></div>
         {menuItem && (
           <div class={classes.mobileMenu}>
             <div onClick={onClose} class={classes.closeBtn}>
