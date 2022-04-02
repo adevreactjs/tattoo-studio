@@ -1,0 +1,146 @@
+.contact {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 569px;
+  padding: 43px 43px 71px 43px;
+  background: #979292;
+  opacity: 0.5;
+  border-radius: 52px;
+}
+.contactForm input {
+  width: 481px;
+  padding: 39px 29px;
+  margin-bottom: 36px;
+  display: block;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: black;
+  background: #c4c4c4;
+  border-radius: 54px;
+}
+
+.contactTitle {
+  margin: 0 auto;
+  margin-bottom: 33px;
+  max-width: 423px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.formBtn {
+  padding: 21px 69px;
+  background: #c4c4c4;
+  border-radius: 11px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+
+  color: #000000;
+}
+.contactTel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 26px 33px;
+  border-radius: 52px;
+}
+.phone {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+.email {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+.line {
+  margin-bottom: 36px;
+  width: 492px;
+  height: 7px;
+  background: #ffffff;
+}
+.adress {
+  max-width: 500px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media (max-width: 1200px) {
+  .contact {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 610px) {
+  .contactForm {
+    margin: 0 10px;
+    height: auto;
+  }
+  .contactForm input {
+    width: 420px;
+  }
+}
+
+@media (max-width: 530px) {
+  .contactForm {
+    margin: 0 10px;
+    height: auto;
+  }
+  .contactForm input {
+    width: 360px;
+  }
+  .line {
+    max-width: 402px;
+  }
+}
+
+@media (max-width: 465px) {
+  .contactForm {
+    padding: 43px 21px 45px 21px;
+  }
+  .contactForm input {
+    width: 340px;
+    padding: 26px 29px;
+  }
+  .formBtn {
+    padding: 21px 40px;
+    font-size: 26px;
+  }
+  .phone {
+    font-size: 30px;
+
+  }
+  .email {
+    font-size: 30px;
+
+  }
+  .adress {
+    font-size: 30px;
+
+  }
+  .line {
+    margin: 0 5px;
+  }
+}

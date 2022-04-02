@@ -1,0 +1,42 @@
+.mapBlock {
+    padding: 65px 54px;
+}
+.map iframe{
+    border-radius: 40px;
+
+}
+.adressBlock {
+    font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.social {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social img{
+    display: block;
+    width: 50px;
+    height: 50px;
+
+}
+.icon {
+    display: flex;
+}
+.iconImg {
+    margin-right: 10px;
+}
+
+@media (max-width: 970px) {
+    .adressBlock {
+        display: none;
+    }
+    .social {
+        justify-content: center;
+    }
+}

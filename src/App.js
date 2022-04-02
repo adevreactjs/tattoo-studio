@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+
+import classes from './App.module.css';
+import Header from './components/header/Header';
+import CarouselSlider from './components/header/CarouselSlider';
+import History from './components/ history/History';
+import Masters from './components/masters/Masters';
+import ContactForm from './components/contactForm/ContactForm';
+import Map from './components/map/Map'
+import CarouselSlide from './components/Portfolio/CarouselSlide';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   
+
+    <div className={classes.wrapper}>
+      <div className={classes.container}>
+        <div className="App">
+          <Header />
+
+          <CarouselSlider />
+          <History />
+          <div className={classes.portfolio}>
+         
+            <CarouselSlide/>
+          </div>
+          <Masters />
+          <div className={classes.contactBlock}>
+            <ContactForm/>
+          </div>
+          <Map/>          
+
+        </div>
+      </div>
     </div>
+   
+
   );
 }
 
