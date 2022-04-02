@@ -12,7 +12,6 @@
     "react-id-swiper": "^4.0.0",
     "react-lightbox-component": "^1.2.1",
     "react-responsive-carousel": "^3.2.23",
-    "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
     "swiper": "^8.0.7",
     "web-vitals": "^2.1.4"
