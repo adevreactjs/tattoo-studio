@@ -7,6 +7,7 @@ import MainGallery from './components/galarry/MainGallery';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import AboutUs from './components/aboutUs/AboutUs';
 import Contacts from './components/contacts/Contacts';
+import Master from './components/ourMaster/Master';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,7 +16,7 @@ ReactDOM.render(
         <Route path="/" element={<App />}></Route>
         <Route path="/about" element={<AboutUs />}></Route>
         <Route path="/gallery" element={<MainGallery />}></Route>
-        <Route path="/master" element={<MainGallery />}></Route>
+        <Route path="/master" element={<Master/>}></Route>
         <Route path="/contacts" element={<Contacts/>}></Route>
       </Routes>
     </BrowserRouter>
