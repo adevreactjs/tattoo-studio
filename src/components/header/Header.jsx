@@ -19,7 +19,7 @@ const Header = () => {
       <div className={classes.background}>
         <div className={classes.menuItems}>
           <div>
-            <Link to='/'>
+            <Link to='/tattoo-studio'>
               <img className={classes.logo} src={logo} alt='logo'></img>
             </Link>
           </div>
