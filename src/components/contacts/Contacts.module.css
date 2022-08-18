@@ -1,6 +1,5 @@
 body {
-    background: #121212;
-
+  background: #121212;
 }
 
 .wrapper {
@@ -8,51 +7,48 @@ body {
   overflow: hidden;
   min-height: 100%;
   background: #121212;
-
 }
 
 .container {
   max-width: 1680px;
   margin: 0 auto;
-  background:#121212;
+  background: #121212;
 }
 
-  
-
-  .contactTel {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    padding: 26px 33px;
-    border-radius: 52px;
-  }
-  .phone {
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 60px;
-    text-align: center;
-    color: #ffffff;
-  }
-  .email {
-      margin-bottom: 16px;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 60px;
-    text-align: center;
-    color: #ffffff;
-  }
-  .line {
-      margin-bottom: 36px;
-    width: 492px;
-    height: 7px;
-    background: #ffffff;
-  }
-  .adress {
-    max-width: 500px;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 45px;
-    text-align: center;
-    color: #ffffff;
-  }
+.contactTel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 26px 33px;
+  border-radius: 52px;
+}
+.phone {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+.email {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+.line {
+  margin-bottom: 36px;
+  width: 492px;
+  height: 7px;
+  background: #ffffff;
+}
+.adress {
+  max-width: 500px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #ffffff;
+}

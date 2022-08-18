@@ -10,7 +10,7 @@ export default function Master() {
       <div className={classes.container}>
         <Header />
         <div className={classes.master}>
-          <img src={master} alt="img" />
+          <img src={master} alt='img' />
         </div>
         <h2 className={classes.text}>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos illum accusamus enim fuga,

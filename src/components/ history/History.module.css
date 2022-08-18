@@ -4,13 +4,12 @@
   background-color: #121212;
   justify-content: space-around;
   align-items: center;
- 
 }
 
 .text {
-
+  padding: 20px;
   font-weight: 400;
-  font-size: 48px;
+  font-size: 36px;
   line-height: 59px;
   color: #ffffff;
 }
@@ -22,16 +21,13 @@
   margin: 0 10px;
   max-width: 100%;
   height: auto;
-   
 }
 
 @media (max-width: 1190px) {
   .history {
-    
     flex-direction: column;
   }
   .text {
-   
     text-align: center;
   }
 }
@@ -47,5 +43,4 @@
     max-width: 100%;
     height: auto;
   }
-
 }

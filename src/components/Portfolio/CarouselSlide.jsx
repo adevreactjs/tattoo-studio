@@ -11,20 +11,20 @@ export default function CarouselSlide() {
   return (
     <div className={classes.sliderBlock}>
       <Carousel
-      dynamicHeight={false}
+        dynamicHeight={false}
         showStatus={false}
         showThumbs={false}
         autoPlay={true}
         interval={2000}
         infiniteLoop={true}>
         <div>
-          <img src={img} alt="img" />
+          <img src={img} alt='img' />
         </div>
         <div>
-          <img src={img2} alt="img" />
+          <img src={img2} alt='img' />
         </div>
         <div>
-          <img src={img3} alt="img" />
+          <img src={img3} alt='img' />
         </div>
       </Carousel>
     </div>

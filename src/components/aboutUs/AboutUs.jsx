@@ -10,18 +10,18 @@ export default function AboutUs() {
         <div className={classes.textBlock}>
           <h1 className={classes.title}>О нас</h1>
           <p className={classes.text}>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet iure fugit fugiat dicta.
-          Sapiente, delectus dolor explicabo ullam asperiores eveniet! Eos ad perspiciatis
-          necessitatibus beatae, repudiandae doloribus itaque recusandae neque.
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet iure fugit fugiat dicta.
-          Sapiente, delectus dolor explicabo ullam asperiores eveniet! Eos ad perspiciatis
-          necessitatibus beatae, repudiandae doloribus itaque recusandae neque.
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet iure fugit fugiat dicta.
-          Sapiente, delectus dolor explicabo ullam asperiores eveniet! Eos ad perspiciatis
-          necessitatibus beatae, repudiandae doloribus itaque recusandae neque.
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet iure fugit fugiat dicta.
-          Sapiente, delectus dolor explicabo ullam asperiores eveniet! Eos ad perspiciatis
-          necessitatibus beatae, repudiandae doloribus itaque recusandae neque.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet iure fugit fugiat dicta.
+            Sapiente, delectus dolor explicabo ullam asperiores eveniet! Eos ad perspiciatis
+            necessitatibus beatae, repudiandae doloribus itaque recusandae neque. Lorem, ipsum dolor
+            sit amet consectetur adipisicing elit. Amet iure fugit fugiat dicta. Sapiente, delectus
+            dolor explicabo ullam asperiores eveniet! Eos ad perspiciatis necessitatibus beatae,
+            repudiandae doloribus itaque recusandae neque. Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Amet iure fugit fugiat dicta. Sapiente, delectus dolor explicabo ullam
+            asperiores eveniet! Eos ad perspiciatis necessitatibus beatae, repudiandae doloribus
+            itaque recusandae neque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet
+            iure fugit fugiat dicta. Sapiente, delectus dolor explicabo ullam asperiores eveniet!
+            Eos ad perspiciatis necessitatibus beatae, repudiandae doloribus itaque recusandae
+            neque.
           </p>
         </div>
       </div>

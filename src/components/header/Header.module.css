@@ -45,7 +45,6 @@
   padding: 20px 30px;
   background: black;
   z-index: 10;
-
 }
 
 .mobileMenuItems {
@@ -56,10 +55,10 @@
 .mobileMenuItem {
   margin-bottom: 10px;
   font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    color: #ffffff;
-    cursor: pointer;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  cursor: pointer;
 }
 .block {
   display: none;
@@ -76,6 +75,10 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
+}
+.slider {
+  width: 400px;
+  height: 500px;
 }
 
 @media (max-width: 880px) {

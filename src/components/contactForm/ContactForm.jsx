@@ -2,8 +2,8 @@ import React from 'react';
 import classes from './ContactForm.module.css';
 
 const ContactForm = () => {
-  const [name, setName] = React.useState(null);
-  const [tel, setTel] = React.useState(null);
+  const [name, setName] = React.useState('');
+  const [tel, setTel] = React.useState('');
 
   return (
     <div className={classes.contact}>
@@ -11,16 +11,16 @@ const ContactForm = () => {
         <div className={classes.contactTitle}>Оставьте свои данные и мы вам перезвоним</div>
         <form className={classes.contactForm}>
           <input
-            onChange={(e) => setName(e.target.value)}
+            onChange={e => setName(e.target.value)}
             value={name}
-            type="text"
-            placeholder="Имя"
+            type='text'
+            placeholder='Имя'
           />
           <input
-            onChange={(e) => setTel(e.target.value)}
+            onChange={e => setTel(e.target.value)}
             value={tel}
-            type="tel"
-            placeholder="Номер телефона"
+            type='tel'
+            placeholder='Номер телефона'
           />
           <button className={classes.formBtn}>Отправить</button>
         </form>

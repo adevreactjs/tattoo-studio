@@ -16,7 +16,7 @@ import { EffectCoverflow, Pagination } from 'swiper';
 export default function Gallery() {
   return (
     <div className={classes.gallery}>
-      <Swiper 
+      <Swiper
         autoplay={true}
         effect={'coverflow'}
         grabCursor={true}
@@ -31,33 +31,33 @@ export default function Gallery() {
         }}
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
-        className="mySwiper">
+        className='mySwiper'>
         <SwiperSlide>
-          <img src={img} alt="img" />
+          <img src={img} alt='img' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="img" />
+          <img src='https://swiperjs.com/demos/images/nature-2.jpg' alt='img' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt="img" />
+          <img src='https://swiperjs.com/demos/images/nature-3.jpg' alt='img' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt="img" />
+          <img src='https://swiperjs.com/demos/images/nature-4.jpg' alt='img' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt="img" />
+          <img src='https://swiperjs.com/demos/images/nature-5.jpg' alt='img' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" alt="img" />
+          <img src='https://swiperjs.com/demos/images/nature-6.jpg' alt='img' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" alt="img" />
+          <img src='https://swiperjs.com/demos/images/nature-7.jpg' alt='img' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" alt="img" />
+          <img src='https://swiperjs.com/demos/images/nature-8.jpg' alt='img' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-9.jpg" alt="img" />
+          <img src='https://swiperjs.com/demos/images/nature-9.jpg' alt='img' />
         </SwiperSlide>
       </Swiper>
     </div>

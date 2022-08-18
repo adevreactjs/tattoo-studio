@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../header/Header';
 import classes from './Contacts.module.css';
-import Map from '../map/Map'
+import Map from '../map/Map';
 
 export default function Contacts() {
   return (
@@ -16,8 +16,7 @@ export default function Contacts() {
             г. Запорожье, пр. Соборный 153 12-й подъезд, 2-й этаж 131
           </div>
         </div>
-        <Map/>
-
+        <Map />
       </div>
     </div>
   );
