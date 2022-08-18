@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/tattoo-studio/static/css/main.02dc392e.css",
+    "main.js": "/tattoo-studio/static/js/main.19e0fd2b.js",
+    "static/media/7.jpg": "/tattoo-studio/static/media/7.b9dc0c30a700caeceb69.jpg",
+    "static/media/4.jpg": "/tattoo-studio/static/media/4.a35a11331fc651d8f0ec.jpg",
+    "static/media/5.jpg": "/tattoo-studio/static/media/5.aac3fef77dbed3c8e038.jpg",
+    "static/media/1.jpg": "/tattoo-studio/static/media/1.d381f06509506586124e.jpg",
+    "static/media/8.jpg": "/tattoo-studio/static/media/8.e06d6c57a2eb293e658d.jpg",
+    "static/media/9.jpg": "/tattoo-studio/static/media/9.1d0a5039ae029abfab2f.jpg",
+    "static/media/6.jpg": "/tattoo-studio/static/media/6.53ba5d2eab8bf6e5073c.jpg",
+    "static/media/3.jpg": "/tattoo-studio/static/media/3.259e9646c427f75ba5fa.jpg",
+    "static/media/2.jpg": "/tattoo-studio/static/media/2.724c22c206cde4a57099.jpg",
+    "static/media/10.jpg": "/tattoo-studio/static/media/10.d41fc4d03064b77ef0e9.jpg",
+    "static/media/11.jpg": "/tattoo-studio/static/media/11.221f8af38afea38d4c9e.jpg",
+    "static/media/slide.jpg": "/tattoo-studio/static/media/slide.6eefb8d8a397c8fef7ac.jpg",
+    "static/media/slide3.jpg": "/tattoo-studio/static/media/slide3.6eefb8d8a397c8fef7ac.jpg",
+    "static/media/slider2.jpg": "/tattoo-studio/static/media/slider2.2e607ebd460f2db74f97.jpg",
+    "static/media/icon-history.jpg": "/tattoo-studio/static/media/icon-history.bec3368c96ce61f799d1.jpg",
+    "static/media/logo.png": "/tattoo-studio/static/media/logo.0a0d367ddd22fdf4822d.png",
+    "static/media/master.jpg": "/tattoo-studio/static/media/master.39d540461c95fda5becc.jpg",
+    "static/media/instagram.png": "/tattoo-studio/static/media/instagram.79535458a8a6d88f81d4.png",
+    "index.html": "/tattoo-studio/index.html",
+    "static/media/close.svg": "/tattoo-studio/static/media/close.5afcb554e8c255e7836e4ec3c12beb62.svg",
+    "static/media/menu.svg": "/tattoo-studio/static/media/menu.d2aaf335dd190a8c32b6e1b03d8f04b1.svg",
+    "main.02dc392e.css.map": "/tattoo-studio/static/css/main.02dc392e.css.map",
+    "main.19e0fd2b.js.map": "/tattoo-studio/static/js/main.19e0fd2b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02dc392e.css",
+    "static/js/main.19e0fd2b.js"
+  ]
+}
